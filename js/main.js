@@ -15,7 +15,7 @@ about.addEventListener('click', () => {
     left: 50,
     mount: aboutContent,
     onfocus: function () {
-      this.setBackground('#00aa00')
+      this.setBackground('tomato')
     },
     onblur: function () {
       this.setBackground('#777')
@@ -26,7 +26,7 @@ about.addEventListener('click', () => {
 contact.addEventListener('click', () => {
   const contactBox = new WinBox({
     title: 'Contact Me',
-    background: '#00aa00',
+    background: 'tomato',
     width: '400px',
     height: '400px',
     top: 150,
@@ -35,7 +35,7 @@ contact.addEventListener('click', () => {
     left: 250,
     mount: contactContent,
     onfocus: function () {
-      this.setBackground('#00aa00')
+      this.setBackground('tomato')
     },
     onblur: function () {
       this.setBackground('#777')
